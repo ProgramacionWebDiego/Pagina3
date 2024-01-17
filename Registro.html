@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <h1>Registro de Empleados</h1>
+    <form action="">
+        <br>
+        <label for="nombre">Nombre</label>
+        <input type="text">
+        <br>
+        <label for="nombre">Apellido</label>
+        <input type="text">
+        <br>
+        <label for="Telefono">Telefono</label>
+        <input type="tel", pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Formato es 753-000-0000">
+        <br>
+        <label for="estado">Estado</label>
+        <select name="" id="">
+            <option value="">Mexico</option>
+        </select>
+        <br>
+        <label for="sexo">Sexo:</label>
+        <input type="radio"> <label for="hombre">Hombre</label><input type="radio"> <label for="Mujer">Mujer</label><input type="radio"> <label for="otro">Otro</label>
+        <br>
+        <label for="fecha">Fecha de Nacimiento</label>
+        <input type="date">
+        <br>
+        <label for="correo">Correo</label>
+        <input type="email" id="correo">
+        <br>
+        <label for="Contraseña">Contraseña</label>
+        <input type="password">
+        <br>
+        <label for="foto">Foto de la Credencial</label>
+        <input type="file">
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
